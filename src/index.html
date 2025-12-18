@@ -1,0 +1,1067 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Whitepace — Hero (Tailwind)</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="">
+    <!-- NAV-->
+    <p class="text-gray-600 text-sm ml-10 pt-2 pb-2">
+      Custom T-shirts & Promotional Products, Fast & Free Shipping, and
+      All-Inclusive Pricing
+    </p>
+    <hr class="border-gray-200" />
+
+    <div class="flex items-center justify-between px-5 py-2 h-16">
+      <div>
+        <span class=""><img src="img/Logo.png" class="w-38" /></span>
+      </div>
+      <div class="flex-1 max-w-xl">
+        <div
+          class="flex items-center bg-gray-100 rounded-full px-4 py-2 shadow-sm"
+        >
+          <!-- Search Icon -->
+          <svg
+            class="w-5 h-5 text-gray-500"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21 21l-4.35-4.35m1.1-5.4a7 7 0 11-14 0 7 7 0 0114 0z"
+            />
+          </svg>
+          <!-- Input Box -->
+          <input
+            type="text"
+            placeholder="Search for t-shirts, hoodies, koozies, and more"
+            class="ml-3 bg-transparent outline-none w-full text-gray-900"
+          />
+        </div>
+      </div>
+      <div class="flex items-start gap-8 justify-end">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 6.75a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+          />
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M4.5 19.5a8.25 8.25 0 1115 0 17.978 17.978 0 01-15 0z"
+          />
+        </svg>
+        <div class="flex flex-col">
+          <div>Talk to a Real Person</div>
+          <div class="text-orange-500">855-256-1652</div>
+        </div>
+
+        <div class="flex flex-col">
+          <div>Chat with a Real Person</div>
+          <div class="text-orange-500">Chat Now</div>
+        </div>
+      </div>
+    </div>
+    <hr class="border-gray-200" />
+
+    <!-- header -->
+    <!-- <header class="">
+      <nav
+        class="max-w-7xl mx-auto px-3 py-3 flex items-center justify-between"
+      >
+        <!-- LEFT: Main Menu -->
+    <!-- <ul class="flex space-x-8 text-lg text-gray-600">
+          <li><a href="#" class="hover:text-blue-600">Custom T-shirts</a></li>
+          <li><a href="#" class="hover:text-blue-600">Custom Apparel</a></li>
+          <li>
+            <a href="#" class="hover:text-blue-600">Promotional Products</a>
+          </li>
+          <li><a href="#" class="hover:text-blue-600">Design Lab</a></li>
+          <li><a href="#" class="hover:text-blue-600">Group & Events</a></li>
+        </ul>
+        <!-- RIGHT: Sign In + Cart -->
+    <!-- <div class="flex items-center space-x-6">
+          <!-- Sign In -->
+    <!-- <a href="#" class="flex items-center hover:text-blue-600">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6 mr-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 6a3.75 3.75 0 11-7.5 0 
+                   3.75 3.75 0 017.5 0zM4.5 20.25
+                   a8.25 8.25 0 1115 0v.75H4.5v-.75z"
+              />
+            </svg>
+            <span>Sign In</span>
+          </a> -->
+
+    <!-- Cart -->
+    <!-- <a href="#" class="hover:text-blue-600">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 
+                   1.087.835l.383 1.437M7.5 14.25H19.5
+                   a.75.75 0 00.715-.518l2.25-6.75
+                   a.75.75 0 00-.716-.982H4.772M7.5 14.25
+                   L5.106 5.272M7.5 14.25l-2.25 6.75M10.5 
+                   20.25a1.5 1.5 0 11-3 0 1.5 1.5 
+                   0 013 0zm9 0a1.5 1.5 0 11-3 0 
+                   1.5 1.5 0 013 0z"
+              />
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <hr class="border-gray-200" /> -->
+
+    <header class="bg-white shadow">
+      <nav
+        class="max-w-7xl mx-auto px-3 py-3 flex items-center justify-between"
+      >
+        <ul class="flex space-x-8 text-lg text-gray-600">
+          <li class="relative group">
+            <a href="#" class="hover:text-blue-600"> Custom T-shirts </a>
+            <!-- 4-Column Mega Menu -->
+            <div
+              class="absolute top-full mt-2 w-[1270px] bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 grid grid-cols-4 gap-4 p-8"
+            >
+              <a href="#" class="block hover:text-blue-600 text-base"
+                >Short Sleeve T-Shirts</a
+              >
+              <a href="#" class="block hover:text-blue-600 text-base"
+                >Performance Tees</a
+              >
+              <a href="#" class="block hover:text-blue-600 text-base"
+                >Kids T-Shirts</a
+              >
+              <a href="#" class="block hover:text-blue-600 text-base"
+                >Long Sleeve</a
+              >
+              <a href="#" class="block hover:text-blue-600 text-base"
+                >Long Sleeve T-Shirts</a
+              >
+              <a href="#" class="block hover:text-blue-600 text-base"
+                >New Arrival</a
+              >
+              <a href="#" class="block hover:text-blue-600 text-base"
+                >Printed T-Shirts</a
+              >
+              <a href="#" class="block hover:text-blue-600 text-base"
+                >Special Edition</a
+              >
+              <a href="#" class="block hover:text-blue-600 text-base"
+                >Special Edition</a
+              >
+              <a href="#" class="block hover:text-blue-600 text-base"
+                >Special Edition</a
+              >
+            </div>
+          </li>
+
+          <!-- Custom Apparel Dropdown -->
+          <li class="relative group">
+            <a href="#" class="hover:text-blue-600"> Custom Apparel </a>
+
+            <div
+              class="absolute top-full mt-2 w-[1270px] bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 grid grid-cols-4 gap-4 p-8"
+            >
+              <a href="#" class="block hover:text-blue-600 text-base"
+                >Short sleeep's T-Shirts</a
+              >
+              <a href="#" class="block hover:text-blue-600">Women's T-Shirts</a>
+              <a href="#" class="block hover:text-blue-600">Kids T-Shirts</a>
+              <a href="#" class="block hover:text-blue-600">Long Sleeve</a>
+              <a href="#" class="block hover:text-blue-600">Performance Tees</a>
+              <a href="#" class="block hover:text-blue-600">New Arrival</a>
+              <a href="#" class="block hover:text-blue-600">Printed T-Shirts</a>
+              <a href="#" class="block hover:text-blue-600">Special Edition</a>
+              <a href="#" class="block hover:text-blue-600">Special Edition</a>
+              <a href="#" class="block hover:text-blue-600">Special Edition</a>
+            </div>
+          </li>
+
+          <!-- Promotional Products Dropdown -->
+          <li class="relative group">
+            <a href="#" class="hover:text-blue-600 flex items-center gap-1">
+              Promotional Products
+            </a>
+
+            <div
+              class="absolute left-0 top-full mt-2 w-56 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50"
+            >
+              <a href="#" class="block px-4 py-3 hover:bg-gray-100 rounded-t-lg"
+                >Start Designing</a
+              >
+              <a href="#" class="block px-4 py-3 hover:bg-gray-100"
+                >Upload Your Art</a
+              >
+              <a href="#" class="block px-4 py-3 hover:bg-gray-100"
+                >Design Templates</a
+              >
+              <a href="#" class="block px-4 py-3 hover:bg-gray-100"
+                >Browse Ideas</a
+              >
+              <a href="#" class="block px-4 py-3 hover:bg-gray-100 rounded-b-lg"
+                >Free Clipart</a
+              >
+            </div>
+          </li>
+
+          <!-- Design Lab Dropdown -->
+          <li class="relative group">
+            <a href="#" class="hover:text-blue-600 flex items-center gap-1">
+              Design Lab
+            </a>
+
+            <div
+              class="absolute left-0 top-full mt-2 w-56 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50"
+            >
+              <a href="#" class="block px-4 py-3 hover:bg-gray-100 rounded-t-lg"
+                >Start Designing</a
+              >
+              <a href="#" class="block px-4 py-3 hover:bg-gray-100"
+                >Upload Your Art</a
+              >
+              <a href="#" class="block px-4 py-3 hover:bg-gray-100"
+                >Design Templates</a
+              >
+              <a href="#" class="block px-4 py-3 hover:bg-gray-100"
+                >Browse Ideas</a
+              >
+              <a href="#" class="block px-4 py-3 hover:bg-gray-100 rounded-b-lg"
+                >Free Clipart</a
+              >
+            </div>
+          </li>
+
+          <!-- Group & Events Dropdown -->
+          <li class="relative group">
+            <a href="#" class="hover:text-blue-600 flex items-center gap-1">
+              Group & Events
+            </a>
+
+            <div
+              class="absolute left-0 top-full mt-2 w-56 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 "
+            >
+              <a href="#" class="block px-4 py-3 hover:bg-gray-100 rounded-t-lg"
+                >Team Uniforms</a
+              >
+              <a href="#" class="block px-4 py-3 hover:bg-gray-100"
+                >Corporate Events</a
+              >
+              <a href="#" class="block px-4 py-3 hover:bg-gray-100"
+                >School Spirit</a
+              >
+              <a href="#" class="block px-4 py-3 hover:bg-gray-100"
+                >Fundraising</a
+              >
+              <a href="#" class="block px-4 py-3 hover:bg-gray-100 rounded-b-lg"
+                >Bulk Orders</a
+              >
+            </div>
+          </li>
+        </ul>
+
+        <!-- RIGHT: Sign In + Cart -->
+        <div class="flex items-center space-x-6">
+          <!-- Sign In -->
+          <a href="#" class="flex items-center hover:text-blue-600">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6 mr-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.5 20.25a8.25 8.25 0 1115 0v.75H4.5v-.75z"
+              />
+            </svg>
+            <span>Sign In</span>
+          </a>
+
+          <!-- Cart -->
+          <a href="#" class="hover:text-blue-600">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25H19.5a.75.75 0 00.715-.518l2.25-6.75a.75.75 0 00-.716-.982H4.772M7.5 14.25L5.106 5.272M7.5 14.25l-2.25 6.75M10.5 20.25a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm9 0a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"
+              />
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <div class="max-w-7xl mx-auto px-6 relative">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+          <!-- Left content -->
+          <div class="md:col-span-7 lg:col-span-6 pt-6">
+            <h1
+              class="font-extrabold leading-tight text-2xl sm:text-5xl md:text-6xl lg:text-7xl"
+            >
+              Gear up for <span class="block">gifting</span> season
+            </h1>
+            <p class="mt-6 text-black/80 max-w-xl sm:text-lg">
+              10% off sitewide through Dec 8th. Code
+              <span class="block"
+                >TENOFF automatically applies at checkout. Conditions
+                apply.*</span
+              >
+            </p>
+            <div class="mt-8 flex flex-wrap gap-4">
+              <a
+                href="#"
+                class="px-4 py-3 rounded-md bg-blue-800 text-white font-medium shadow-md"
+                >Get started
+              </a>
+            </div>
+          </div>
+          <!-- Right content -->
+          <div class="md:col-span-5 lg:col-span-6">
+            <img src="img/cyber_weekmain_image.png" class="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Left content -->
+      <div class="grid grid-cols-12 gap-2 p-8">
+        <div class="col-span-8">
+          <div>
+            <button
+              class="w-200 px-8 py-1 bg-red-500 text-white text-lg rounded-lg hover:bg-orange-600 transition-colors"
+            >
+              100% Satisfaction Guarantee
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="grid grid-cols-12 gap-4">
+        <div class="col-span-7">
+          <!-- 3 Items in a Row -->
+          <div class="grid grid-cols-3 gap-4 ml-8">
+            <div class="w-50">
+              <img src="img/local-print.jpg" alt="Image 1" class="rounded-lg" />
+            </div>
+            <div class="ml-4">
+              <p class="text-black font-semibold pt-2">Free shipping</p>
+              <span class="text-gray-600 pt-2"
+                >2-Week Delivery <br />
+                Get it by Fri,Dec 19</span
+              >
+              <br />
+              <a href="#" class="text-blue-600 hover:text-blue-800 pt-2"
+                >View Delivery Calendar</a
+              >
+            </div>
+            <div class="ml-4">
+              <p class="text-black font-semibold pt-2">Need it Sooner?</p>
+              <span class="text-gray-600 pt-2"
+                >Rush or Super Rush
+                <br />
+                Get it as soon as Thu, Dec 11</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-span-4">
+          <!-- Right section -->
+          <div>Your other content here</div>
+        </div>
+      </div>
+
+      <!--  content -->
+      <h1 class="pt-6 text-3xl font-bold text-center">
+        Custom T-shirts & Promotional Products for Your Group
+      </h1>
+      <div class="grid grid-cols-4 gap-4 p-7">
+        <!-- Card 1 -->
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow"
+        >
+          <img src="img/1.webp" alt="Card 1" class="w-full h-48 object-cover" />
+          <div class="p-4">
+            <p class="text-gray-700 text-center">T-shirts</p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow"
+        >
+          <img
+            src="img/sweatshirts.webp"
+            alt="Card 2"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-4">
+            <p class="text-gray-700 text-center">T-shirts</p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow"
+        >
+          <img src="img/2.jpg" alt="Card 3" class="w-full h-48 object-cover" />
+          <div class="p-4">
+            <p class="text-gray-700 text-center">T-shirts</p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div
+          class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-shadow"
+        >
+          <img src="img/3.webp" alt="Card 4" class="w-full h-48 object-cover" />
+          <div class="p-4">
+            <p class="text-gray-700 text-center">T-shirts</p>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-shadow"
+        >
+          <img src="img/5.webp" alt="Card 4" class="w-full h-48 object-cover" />
+          <div class="p-4">
+            <p class="text-gray-700 text-center">T-shirts</p>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-shadow"
+        >
+          <img
+            src="img/10.webp"
+            alt="Card 4"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-4">
+            <p class="text-gray-700 text-center">T-shirts</p>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-shadow"
+        >
+          <img src="img/9.webp" alt="Card 4" class="w-full h-48 object-cover" />
+          <div class="p-4">
+            <p class="text-gray-700 text-center">T-shirts</p>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-shadow"
+        >
+          <img src="img/6.webp" alt="Card 4" class="w-full h-48 object-cover" />
+          <div class="p-4">
+            <p class="text-gray-700 text-center">T-shirts</p>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-shadow"
+        >
+          <img src="img/4.webp" alt="Card 4" class="w-full h-48 object-cover" />
+          <div class="p-4">
+            <p class="text-gray-700 text-center">T-shirts</p>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-shadow"
+        >
+          <img
+            src="img/11.webp"
+            alt="Card 4"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-4">
+            <p class="text-gray-700 text-center">T-shirts</p>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-shadow"
+        >
+          <img src="img/7.webp" alt="Card 4" class="w-full h-48 object-cover" />
+          <div class="p-4">
+            <p class="text-gray-700 text-center">T-shirts</p>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-shadow"
+        >
+          <img src="img/8.webp" alt="Card 4" class="w-full h-48 object-cover" />
+          <div class="p-4">
+            <p class="text-gray-700 text-center">T-shirts</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Arrivals Are Here -->
+      <div class="grid grid-cols-2 gap-4 p-8 justify-between">
+        <!-- Image Section -->
+        <div>
+          <img src="img/new.jpg" alt="Description" class="w-full rounded-lg" />
+        </div>
+
+        <!-- Text Section -->
+        <div class="bg-emerald-200 rounded-lg p-10">
+          <h2 class="text-2xl font-bold mb-4">New Arrivals Are Here</h2>
+
+          <p class="text-gray-900 mb-4">
+            Gear up for the season with fresh picks from the brands you love.
+            From cozy layers to cool accessories, we’re always adding more!
+          </p>
+
+          <a
+            href="#"
+            class="px-8 py-3 rounded-md bg-blue-900 text-white font-medium shadow-md inline-block"
+          >
+            Shop now
+          </a>
+        </div>
+      </div>
+
+      <!-- Right content -->
+      <div class="py-12">
+        <!-- Section Title -->
+        <h2 class="text-3xl font-bold text-center mb-8">
+          Shop Featured Brands
+        </h2>
+        <!-- Brand Logos Grid -->
+        <div class="grid grid-cols-6 gap-8 items-center max-w-6xl mx-auto px-4">
+          <!-- Brand 1 -->
+          <div class="flex items-center justify-center">
+            <img
+              src="img/115783931601b5c.jpg"
+              alt="Brand 1"
+              class="w-full h-auto opacity-70 hover:opacity-100"
+            />
+          </div>
+
+          <!-- Brand 2 -->
+          <div class="flex items-center justify-center">
+            <img
+              src="img/download.jpg"
+              alt="Brand 2"
+              class="w-full h-auto opacity-70 hover:opacity-100"
+            />
+          </div>
+
+          <!-- Brand 3 -->
+          <div class="flex items-center justify-center">
+            <img
+              src="img/images (3).jpg"
+              alt="Brand 3"
+              class="w-full h-auto opacity-70 hover:opacity-100"
+            />
+          </div>
+
+          <!-- Brand 4 -->
+          <div class="flex items-center justify-center">
+            <img
+              src="img/images.jpg"
+              alt="Brand 4"
+              class="w-full h-auto opacity-70 hover:opacity-100"
+            />
+          </div>
+
+          <!-- Brand 5 -->
+          <div class="flex items-center justify-center">
+            <img
+              src="img/company.png"
+              alt="Brand 5"
+              class="w-full h-auto opacity-70 hover:opacity-100"
+            />
+          </div>
+
+          <!-- Brand 6 -->
+          <div class="flex items-center justify-center">
+            <img
+              src="img/download1.png"
+              alt="Brand 6"
+              class="w-full h-auto opacity-70 hover:opacity-100"
+            />
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              src="img/company.png"
+              alt="Brand 6"
+              class="w-full h-auto opacity-70 hover:opacity-100"
+            />
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              src="img/images (1).jpg"
+              alt="Brand 6"
+              class="w-full h-auto opacity-70 hover:opacity-100"
+            />
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              src="img/download.jpg"
+              alt="Brand 6"
+              class="w-full h-auto opacity-70 hover:opacity-100"
+            />
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              src="img/images.png"
+              alt="Brand 6"
+              class="w-full h-auto opacity-70 hover:opacity-100"
+            />
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              src="img/images (2).jpg"
+              alt="Brand 6"
+              class="w-full h-auto opacity-70 hover:opacity-100"
+            />
+          </div>
+          <div class="flex items-center justify-center">
+            <img
+              src="img/images.jpg"
+              alt="Brand 6"
+              class="w-full h-auto opacity-70 hover:opacity-100"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="grid grid-cols-12 gap-4 p-10">
+        <!-- Left Section (8 columns) -->
+        <div class="col-span-8">
+          <div class="bg-gray-100 p-6 rounded-lg mr-8">
+            <img src="img/aa.jpg" alt="" class="" />
+            <h2 class="text-2xl font-bold mb-4">An Inker By Your Side</h2>
+            <p class="text-gray-700">
+              Need help with your order? Get personalized support from our
+              expert team as your partner from design to delivery.
+            </p>
+          </div>
+        </div>
+
+        <!-- Left Section (8 columns) -->
+        <!-- <div class="col-span-8 ">
+    <div class="flex justify-start">
+      <img src="img/aa.jpg" alt="Description" class="rounded-lg w-40">
+    </div>
+              <h2 class="text-lg">An Inker By Your Side</h2>
+          <p class="text-gray-700">Need help with your order? Get personalized support from our expert team as your partner from design to delivery.</p>
+
+
+ Right Section (4 columns) -->
+        <div class="col-span-4">
+          <div class="bg-gray-50 p-6 rounded-lg">
+            <h2 class="text-l font-bold mb-2">All-in Pricing</h2>
+            <p class="text-2xl font-bold">Your Price Includes</p>
+            <ul class="space-y-1 mb-4">
+              <li class="flex items-start gap-3">
+                <span class="text-orange-500 text-xl">✓</span>
+                <span class="text-gray-700">No setup fees</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-orange-500 text-xl">✓</span>
+                <span class="text-gray-700">FREE design review</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-orange-500 text-xl">✓</span>
+                <span class="text-gray-700">FREE standard shipping</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-orange-500 text-xl">✓</span>
+                <span class="text-gray-700">Exclusive artwork & fonts</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-orange-500 text-xl">✓</span>
+                <span class="text-gray-700"> Expert help, 7 days a week</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-orange-500 text-xl">✓</span>
+                <span class="text-gray-700">100% satisfaction guarantee</span>
+              </li>
+            </ul>
+            <!-- With Shadow -->
+            <button
+              class="flex items-center px-6 py-3 pt-3 border-2 border-blue-600 text-blue-600 rounded-lg hover:bg-blue-800 hover:text-white transition-colors font-semibold"
+            >
+              <span>Learn more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full max-w-4xl mx-auto mt-10 overflow-hidden relative">
+        <!-- Slider wrapper -->
+        <div
+          id="slider"
+          class="flex transition-transform duration-700 ease-out"
+        >
+          <!-- Card 1 -->
+          <div class="min-w-full p-4">
+            <div class="bg-white rounded-xl shadow p-6 text-center">
+              <h2 class="text-xl font-bold mb-2">Card One</h2>
+              <p class="text-gray-600">This is the first card.</p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="min-w-full p-4">
+            <div class="bg-white rounded-xl shadow p-6 text-center">
+              <h2 class="text-xl font-bold mb-2">Card Two</h2>
+              <p class="text-gray-600">This is the second card.</p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="min-w-full p-4">
+            <div class="bg-white rounded-xl shadow p-6 text-center">
+              <h2 class="text-xl font-bold mb-2">Card Three</h2>
+              <p class="text-gray-600">This is the third card.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- FOOTER -->
+    <!-- Top footer -->
+    <hr class="h-5 bg-orange-600 border-0" />
+    <footer class="bg-gray-50">
+      <div class="grid grid-cols-12 gap-6 p-8">
+        <div class="col-span-4 mb-4">
+          <!-- Image and Paragraph Side by Side -->
+          <div class="gap-4">
+            <p class="font-semibold mb-4 text-sm">Watch our TV Commercial</p>
+            <div class="w-full h-55">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/URYUrcQMOCY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-4 mb-4 ml-16">
+          <p class="font-semibold text-sm">ABOUT US</p>
+          <ul class="space-y-2 pt-2">
+            <li class="">
+              <a href="#" class="text-gray-700 hover:text-blue-700"
+                >Get to Know Custom Ink</a
+              >
+            </li>
+            <li class="">
+              <a href="#" class="text-gray-700">Careers</a>
+            </li>
+            <li class="">
+              <a href="#" class="text-gray-700">Press</a>
+            </li>
+            <li class="">
+              <a href="#" class="text-gray-700">Partnerships</a>
+            </li>
+            <li class="">
+              <a href="#" class="text-gray-700">Diversity & Belonging</a>
+            </li>
+            <li class="">
+              <a href="#" class="text-gray-700">Customer Reviews</a>
+            </li>
+            <li class="">
+              <a href="#" class="text-gray-700">Weekly Photo Contest</a>
+            </li>
+            <li class="">
+              <a href="#" class="text-gray-700">Custom Ink Blog</a>
+            </li>
+            <li class="">
+              <a href="#" class="text-gray-700">Store Locations</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-span-4 mb-4 ml-14 space-y-3">
+          <p class="font-semibold text-sm">TALK TO A REAL PERSON</p>
+          <p class="font-semibold text-xs">7 DAYS A WEEK</p>
+          <span>Monday-Friday: 8am - Midnight ET</span><br />
+          <span> Saturday: 10am - 6pm ET</span> <br />
+          <span> Sunday: 10am - 6pm ET</span>
+          <p class="text-red-600 font-semibold pt-3">Holiday Hours:</p>
+          <span>Dec. 25th - Closed</span>
+        </div>
+      </div>
+
+      <!-- bottom footer -->
+      <div class="grid grid-cols-12 gap-4 p-8">
+        <div class="col-span-4">
+          <p class="font-semibold">EMAIL SIGN-UP</p>
+          <div class="flex items-center pt-5 gap-4">
+            <!-- Search Input -->
+            <input
+              type="text"
+              placeholder="Your email address"
+              class="px-4 py-2 w-64 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 shadow-sm"
+            />
+            <!-- Submit Button -->
+            <button
+              type="button"
+              class="px-4 py-2 bg-blue-800 text-white font-semibold rounded-md shadow hover:bg-blue-700 transition duration-300"
+            >
+              Submit</button
+            ><br />
+          </div>
+          <div class="text-sm pt-4">
+            By clicking submit, I acknowledge I have read and <br />
+            accepted the
+            <a href="#" class="text-blue-600 underline pt-3">Privacy Policy.</a>
+          </div>
+        </div>
+        <div class="col-span-4 mb-4">
+          <div class="ml-16">
+            <p class="font-semibold mb-4 text-sm">YOUR ACCOUNT</p>
+            <ul class="space-y-2 pt-2">
+              <li class="">
+                <a href="#" class="text-gray-700 hover:text-blue-700"
+                  >Get to Know Custom Ink</a
+                >
+              </li>
+              <li class="">
+                <a href="#" class="text-gray-700">Careers</a>
+              </li>
+              <li class="">
+                <a href="#" class="text-gray-700">Press</a>
+              </li>
+              <li class="">
+                <a href="#" class="text-gray-700">Partnerships</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-span-4 mb-4 -mt-2">
+          <div class="ml-16">
+            <ul class="space-y-5">
+              <!-- Phone -->
+              <li>
+                <div class="flex items-center gap-2">
+                  <svg
+                    class="w-6 h-6 text-orange-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M4 9h16M4 15h16M10 3l-2 18M16 3l-2 18" />
+                  </svg>
+
+                  <a href="#" class="text-gray-700">844-221-2538</a>
+                </div>
+              </li>
+
+              <!-- Live Chat -->
+              <li>
+                <div class="flex items-center gap-2">
+                  <svg
+                    class="w-6 h-6 text-orange-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+                    />
+                  </svg>
+                  <a href="#" class="text-gray-700">Live Chat Now</a>
+                </div>
+              </li>
+
+              <!-- Email -->
+              <li>
+                <div class="flex items-center gap-2">
+                  <svg
+                    class="w-6 h-6 text-orange-500"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    viewBox="0 0 24 24"
+                  >
+                    <rect x="2" y="4" width="20" height="16" rx="2" ry="2" />
+                    <path d="M22 6l-10 7L2 6" />
+                  </svg>
+                  <a href="#" class="text-gray-700">Send us an Email</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-12 gap-12">
+        <div class="col-span-6 P-8">
+          <p class="font-semibold mb-4 text-sm">FOLLOW US</p>
+          <div class="flex items-center gap-4">
+            <!-- Facebook -->
+            <a href="#" class="text-orange-600 hover:text-blue-600">
+              <svg class="w-7 h-8" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M22 12a10 10 0 1 0-11.5 9.9v-7H8v-3h2.5V9.5a3.5 3.5 0 0 1 3.7-3.9c1 0 2 .1 2 .1v2.3h-1.1c-1.1 0-1.4.7-1.4 1.4V12H18l-.5 3h-2.7v7A10 10 0 0 0 22 12z"
+                />
+              </svg>
+            </a>
+
+            <!-- PINTEREST -->
+            <a href="#" class="text-gray-600 hover:text-sky-500">
+              <svg
+                class="w-7 h-8 text-orange-600"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 0C5.372 0 0 5.373 0 12c0 5.084 3.163 9.417 7.615 11.17-.105-.95-.2-2.406.042-3.444.22-.965 1.418-6.153 1.418-6.153s-.36-.718-.36-1.78c0-1.667.966-2.91 2.166-2.91 1.02 0 1.51.767 1.51 1.686 0 1.028-.656 2.567-.996 3.994-.284 1.192.603 2.165 1.789 2.165 2.147 0 3.788-2.263 3.788-5.527 0-2.884-2.073-4.893-5.037-4.893-3.43 0-5.576 2.567-5.576 5.21 0 1.03.397 2.14.892 2.74a.36.36 0 0 1 .082.348c-.09.38-.29 1.212-.33 1.38-.053.22-.174.267-.404.16-1.51-.704-2.452-2.896-2.452-4.66 0-3.797 2.756-7.28 7.96-7.28 4.182 0 7.434 2.986 7.434 6.966 0 4.153-2.622 7.5-6.253 7.5-1.22 0-2.364-.637-2.756-1.392l-.75 2.86c-.27 1.05-1 .236-.996-.774.01-1.02.01-4.194.01-4.774 0-.978-.663-1.612-1.53-1.612-1.17 0-2.09.77-2.09 2.297 0 .835.27 1.39.27 1.39s-.88 3.744-1.037 4.38c-.306 1.122-.045 2.498-.024 2.632C3.97 22.678 7.844 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"
+                />
+              </svg>
+            </a>
+
+            <!-- Instagram -->
+            <a href="#" class="text-orange-600 hover:text-pink-500">
+              <svg class="w-7 h-8" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M7 2C4.8 2 3 3.8 3 6v12c0 2.2 1.8 4 4 4h10c2.2 0 4-1.8 4-4V6c0-2.2-1.8-4-4-4H7zm5 5.3A4.7 4.7 0 1 1 7.3 12 4.7 4.7 0 0 1 12 7.3zM17.5 6A1.5 1.5 0 1 1 16 4.5 1.5 1.5 0 0 1 17.5 6z"
+                />
+              </svg>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="#" class="text-orange-600 hover:text-blue-700">
+              <svg class="w-7 h-8" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0 0-5zM3 9h4v12H3zM14.5 9A4.6 4.6 0 0 0 10 13.7V21h4v-7c0-1.2.8-2 2-2s2 1 2 2v7h4v-7.3C22 11 20 9 17 9z"
+                />
+              </svg>
+            </a>
+
+            <!-- wifi -->
+            <a href="#" class="text-orange-600 hover:text-red-600">
+              <svg
+                class="w-7 h-8 text-orange-600"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M5 12.55a11 11 0 0 1 14 0M1.42 9a16 16 0 0 1 21.16 0M8.53 16.11a6 6 0 0 1 6.95 0M12 20h.01"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-span-6 mb-4">
+          <div class="ml-16 items-end">
+            <p class="font-semibold mb-4 text-sm">SERVICE CENTER</p>
+            <ul class="space-y-2 pt-2">
+              <li class="">
+                <a href="#" class="text-gray-700 hover:text-blue-700"
+                  >Get to Know Custom Ink</a
+                >
+              </li>
+              <li class="">
+                <a href="#" class="text-gray-700">Careers</a>
+              </li>
+              <li class="">
+                <a href="#" class="text-gray-700">Press</a>
+              </li>
+              <li class="">
+                <a href="#" class="text-gray-700">Partnerships</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="p-8">
+        <p class="font-semibold mb-4 text-sm uppercase">
+          Tell Us What You Think
+        </p>
+        <a href="#" class="text-blue-700"
+          >How would you
+          <span class="text-blue-800 font-bold">rate our website?</span></a
+        >
+      </div>
+
+      <div class="bg-gray-100">
+        <p class="text-center pt-4">
+          Custom Products Promotional Items Site Map<br />
+          <span class="mb-2"
+            >Custom Ink is your source for custom t-shirts. Privacy Policy
+            California Privacy Notice User Agreement Cookie Settings</span
+          >
+        </p>
+        <p class="text-sm text-center pt-4">
+          &copy; 2025 Your Company Name. All rights reserved.
+        </p>
+        <p class="text-center">
+          Custom Ink is a registered trademark of CustomInk LLC. "Inky" the
+          octopus is a trademark of CustomInk, LLC.
+        </p>
+      </div>
+      
+    </footer>
+    
+  </body>
+</html>
+
+<script>
+  let slideIndex = 0;
+  const slider = document.getElementById("slider");
+  const totalSlides = 3;
+
+  function autoSlide() {
+    slideIndex = (slideIndex + 1) % totalSlides;
+    slider.style.transform = `translateX(-${slideIndex * 100}%)`;
+  }
+  setInterval(autoSlide, 3000); // slides every 3 seconds
+</script>
